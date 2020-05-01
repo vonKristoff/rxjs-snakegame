@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.mover {
+  width: 100%;
+  min-height: 50px;
+  background-color: #a33;
+}
+.grid-block {
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  margin: 3px;
+}
+.is-active {
+  background-color: yellowgreen;
+}

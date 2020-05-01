@@ -1,0 +1,51 @@
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  background: dodgerblue;
+  color: blue;
+}
+.mover, .blocks {
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+}
+.blocks {
+  flex-direction: column;
+}
+.block-container {
+  width: 100%;
+  display: flex;  
+  justify-content: center;
+  flex-direction: row;
+}
+.grid-block {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: blueviolet;
+  margin: 3px;
+  list-style: none;
+}
+.is-active {
+  background-color: yellowgreen;
+}
+.score {
+  display: flex;
+  align-items: center;
+}
+.points {
+  padding-left: 20px;
+  font-size: 20px;
+}
+.hide {
+  display: none;
+}
+</style>
+<h1>RxJS Game</h1>
+<div class="score">
+<h2>Score</h2>
+<p class="points"></p>
+</div>
+<ul class="blocks"></ul>
+<div class="mover"></div>
